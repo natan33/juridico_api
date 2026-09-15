@@ -151,18 +151,16 @@ GET /api/processes
 
 ---
 
-## 🧾 Rotas Disponíveis
-
 ### 🔐 Autenticação
 
 #### POST /api/login
 
 {
-"email": "admin@admin.com
-",
-"password": "123456"
+  "email": "<email_do_usuario>",
+  "password": "<senha_do_usuario>"
 }
 
+> As credenciais devem ser criadas no ambiente local e nunca devem ser armazenadas no repositório.
 
 Retorna:
 
